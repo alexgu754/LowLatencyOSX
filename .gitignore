@@ -1,0 +1,65 @@
+# --- Build output directories ---
+build/
+cmake-build-debug/
+cmake-build-release/
+out/
+bin/
+obj/
+lib/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# --- Executables / binaries ---
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+
+# --- Compiler intermediates ---
+*.o
+*.obj
+*.pdb
+*.idb
+*.mod
+*.ilk
+
+# --- Libraries ---
+*.a
+*.la
+*.lo
+*.lib
+
+# --- Logs ---
+*.log
+
+# --- Editor / IDE files ---
+# CLion / IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# --- ImGui prebuilt binaries ---
+# (If you include source files, that’s fine, but don’t track built libs)
+imgui.ini
+
+# --- SDL2 unpacked folders ---
+# (Optional: remove build artifacts if you are compiling SDL)
+SDL*/build/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
