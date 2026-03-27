@@ -9,3 +9,7 @@ AND! you must call SDL_GetMouseState(&mouseX, &mouseY); AND ImGui_ImplSDL3_NewFr
 if you a have a lot of cpu work, resampling input (doing poll events, then calling SDL_GetMouseState) helps a lot, so you can have fresh mouse position before doing ImGui. If you are unplugged or are on low battery mode / have a slow / overheated computer, it will introduce latency and something as simple as an imgui can take 5ms cpu time and you'll miss the displaylink so that makes this setup kind of difficult
 
 this implementaton uses the pr request in SDL_gpu_metal.m I made in sdl3 to address the issue
+
+
+https://github.com/user-attachments/assets/fa9cb4d1-31f5-45a9-87a3-ef030027dce8
+
