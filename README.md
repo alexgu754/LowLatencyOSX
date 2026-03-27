@@ -10,6 +10,7 @@ if you a have a lot of cpu work, resampling input (doing poll events, then calli
 
 this implementaton uses the pr request in SDL_gpu_metal.m I made in sdl3 to address the issue
 
+the AddPresentedCounter counter breaks after a while, is that because core video skips frames from overloads or a bad implementaion? I don't even know anymore
 
 https://github.com/user-attachments/assets/fa9cb4d1-31f5-45a9-87a3-ef030027dce8
 
